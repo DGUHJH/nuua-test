@@ -32,3 +32,7 @@ a {
   font-weight: 800;
   src: url('../assets/fonts/Poppins-ExtraBold.ttf') format('ttf');
 }
+
+.css-1uwgr7b-MuiTypography-root {
+  line-height: normal !important;
+}
