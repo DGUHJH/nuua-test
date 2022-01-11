@@ -38,7 +38,13 @@ a {
 }
 
 .MuiTypography-root {
-  display: flex !important;
+  /* display: flex !important;
   align-items: center !important;
-  height: 100% !important;
+  height: 100% !important; */
+}
+body {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }
