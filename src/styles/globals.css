@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: Poppins-Regular;
+  font-weight: 400;
+  src: url('../assets/fonts/Poppins-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  font-weight: 700;
+  src: url('../assets/fonts/Poppins-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: Poppins-ExtraBold;
+  font-weight: 800;
+  src: url('../assets/fonts/Poppins-ExtraBold.ttf') format('ttf');
+}
