@@ -3,9 +3,12 @@ import global from 'assets/images/icon/icon_16_global.svg';
 import inputDown from 'assets/images/icon/icon_16_inputDown_white.svg';
 import logo from 'assets/images/logo.png';
 import Image from 'next/image';
+import { useState } from 'react';
 import * as Styled from './styled';
 
 const Header = () => {
+  const [isBadgeInVisible, setIsBadgeInVisible] = useState<boolean>(false);
+
   return (
     <Styled.Root>
       <Styled.LogoImageWrapper>
@@ -25,7 +28,12 @@ const Header = () => {
         </Styled.MenuCountrySelectContainer>
         <Styled.MenuUserContainer>
           <Styled.MenuUserTypo align="center">홍길동님</Styled.MenuUserTypo>
-          <Badge color="secondary" variant="dot" invisible={false}>
+          <Badge
+            color="secondary"
+            variant="dot"
+            invisible={isBadgeInVisible}
+            onClick={() => setIsBadgeInVisible((prev) => !prev)}
+          >
             <Styled.MenuUserAlarmContainer>
               <Styled.MenuUserAlarmIconWrapper>
                 <Styled.MenuUserAlarmIcon />
