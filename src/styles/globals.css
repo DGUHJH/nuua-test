@@ -36,3 +36,9 @@ a {
 .css-1uwgr7b-MuiTypography-root {
   line-height: normal !important;
 }
+
+.MuiTypography-root {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+}
