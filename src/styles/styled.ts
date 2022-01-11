@@ -167,11 +167,13 @@ export const InfoManageCreditEditButtonContainer = styled(Box)`
 `;
 
 export const InfoManageCreditEditButton = styled(Button)`
-  width: 60px;
-  height: 32px;
-  background: #fff;
-  border: 1px #dddee5 solid;
-  border-radius: 4px;
+  &&& {
+    width: 60px;
+    height: 32px;
+    background: #fff;
+    border: 1px #dddee5 solid;
+    border-radius: 4px;
+  }
 `;
 
 export const InfoManageCreditEditButtonTypo = styled(Typography)`
@@ -207,8 +209,10 @@ export const InfoManageCreditAddIconWrapper = styled(Box)`
 `;
 
 export const InfoManageCreditAddIcon = styled(Add)`
-  font-size: 40px;
-  color: #ccced8;
+  &&& {
+    font-size: 40px;
+    color: #ccced8;
+  }
 `;
 
 export const InfoManageCreditAddTypo = styled(Typography)`

@@ -82,7 +82,9 @@ export const MenuUserAlarmIconWrapper = styled(Box)`
 `;
 
 export const MenuUserAlarmIcon = styled(NotificationsNoneOutlined)`
-  font-size: 16px;
+  &&& {
+    font-size: 16px;
+  }
 `;
 
 export const MenuUserAlarmPointIconWrapper = styled(Box)`
